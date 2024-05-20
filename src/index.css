@@ -1,0 +1,31 @@
+:root {
+  color: #000;
+}
+
+a:hover {
+  color: #00fa9a;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #00fa9a;
+}
+
+.relogio h2 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.hora {
+  font-size: 80px;
+  background: black;
+  color: white;
+  padding: 30px;
+  border-radius: 50px;
+}
